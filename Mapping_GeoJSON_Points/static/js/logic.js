@@ -14,7 +14,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 streets.addTo(map);
 
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.MellyCodes808/Mapping_Earthquakes/master/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/MellyCodes808/Mapping_Earthquakes/tree/main/Master/majorAirports.json";
 
 // Grabbing our GeoJSON data.
 d3.json(airportData).then(function(data) {
